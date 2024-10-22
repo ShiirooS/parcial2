@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/CSS/style.css">
+    <title>Y Qué es un Docker?</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <a href="../index.html"><h1><img src="../assets/img/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png" alt="Logo">Docker</h1></a>
+            <div class="navbar">
+                <ul>
+                    <li><a href="../html/beneficios.html">Beneficios</a></li>
+                    <li><a href="../html/instalacion.html">Instalación</a></li>
+                    <li><a href="../html/comandos.html">Comandos</a></li>
+                </ul>
+            </div> 
+        </div>
+        <div class="body">
+            <div class="contenido">
+                <div class="instal-uno">
+                    <h2>Instalación de Docker</h2>
+                    <p>Docker puede instalarse en varios sistemas operativos. A continuación, te proporcionamos los pasos básicos para instalar Docker en los sistemas operativos más comunes.</p>
+                </div>
+                <div class="instal-dos">
+                    <h3>Instalación en Windows</h3>
+                    <ol>
+                        <li>Descarga el instalador de Docker Desktop desde el sitio oficial de Docker.</li>
+                        <li>Ejecuta el instalador y sigue las instrucciones en pantalla.</li>
+                        <li>Una vez completada la instalación, abre Docker Desktop.</li>
+                        <li>Reinicia tu computadora si es necesario.</li>
+                    </ol>
+                </div>
+                <div class="instal-tres">
+                    <h3>Instalación en Linux (Ubuntu)</h3>
+                    <ol>
+                        <li>Abre una terminal y actualiza los paquetes del sistema con el comando <code>sudo apt update</code>.</li>
+                        <li>Instala los paquetes necesarios para permitir que <code>apt</code> utilice repositorios HTTPS: <code>sudo apt install apt-transport-https ca-certificates curl software-properties-common</code>.</li>
+                        <li>Añade la clave GPG de Docker a tu sistema: <code>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</code>.</li>
+                        <li>Añade el repositorio oficial de Docker: <code>sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"</code>.</li>
+                        <li>Instala Docker CE (Community Edition): <code>sudo apt install docker-ce</code>.</li>
+                        <li>Inicia Docker: <code>sudo systemctl start docker</code>.</li>
+                    </ol>
+                </div>
+                <div class="instal-cuatro">
+                    <h3>Instalación en macOS</h3>
+                    <ol>
+                        <li>Descarga Docker Desktop para Mac desde el sitio web oficial de Docker.</li>
+                        <li>Abre el archivo descargado y arrastra el ícono de Docker a la carpeta "Aplicaciones".</li>
+                        <li>Inicia Docker desde la carpeta de aplicaciones y sigue las instrucciones de configuración.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+                <p>© 2024 Docker Info - Todos los derechos reservados</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
